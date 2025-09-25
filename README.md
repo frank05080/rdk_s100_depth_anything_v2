@@ -115,7 +115,13 @@ Next, we install the corresponding dependencies:
 pip install -r requirements.txt
 ```
 
-After completing the installation of relevant dependencies, we can execute&#x20;
+After completing the installation of relevant dependencies, we need to download the hbm model:
+
+```
+wget https://archive.d-robotics.cc/downloads/rdk_model_zoo/rdk_s100/depth_any/depth_any.hbm
+```
+
+Then we can execute&#x20;
 
 ```plain&#x20;text
 python main.py
